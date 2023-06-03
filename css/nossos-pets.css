@@ -1,0 +1,39 @@
+.chamada-pets {
+    text-align: center;
+    background-color: #FFD54F;
+}
+
+
+.nossos-pets {
+    background-color: #F5F2F0;
+    text-align: center;
+}
+
+.cards-nossos-pets {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+
+.cards-nossos-pets img {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    padding-top: 0px;
+    width: 100%;
+    max-width: 100%;
+}
+
+.card-nossos-pets {
+    background-color: #FFFF;
+    padding-top: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+    .cards-nossos-pets {
+        grid-template-columns: 1fr;
+    }
+}

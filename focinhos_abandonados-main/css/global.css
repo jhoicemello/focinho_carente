@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+ 
+body {
+  font-family: 'Roboto', Arial;
+  color: rgba(33,33,33,1);
+  overflow-x: hidden;
+}
+
+
+  .container {
+    max-width: 1400px;
+    margin: 0px 120.5px;
+    padding: 0px 48px;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .container {
+      margin: 0 auto;
+    }
+  }
+
+
+
+a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+figcaption {
+    visibility: hidden;
+  }

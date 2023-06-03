@@ -1,0 +1,24 @@
+.botton-ficha {
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 24px 0px;
+}
+
+.botton-pets {
+    text-align: center;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 12px 12px;
+    
+}
+
+.botton-yellow {
+    background-color: #FFD54F;
+}
+
+.botton-white {
+    background-color: rgba(255,255,255,1);
+    color: rgba(0,0,0,1);
+}

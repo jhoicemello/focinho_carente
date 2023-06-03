@@ -1,0 +1,28 @@
+.bg-header-ficha {
+    background-image: url("../img/ficha-inscricao/header-ficha-inscricao.jpg");
+}
+
+.formulario {
+    width: 50vw;
+    max-width: 500px;
+    background-color: #FFD54F;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.contato-label {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato-label input {
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
+.radio {
+    display: inline-block;
+}
+

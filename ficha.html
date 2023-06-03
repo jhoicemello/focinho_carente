@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Ficha de Adoção</title>
+</head>
+<body>
+    <header>
+      
+        <div id="menu" class="header menu">
+            <a class="logo" href="index.html"><img src="img/menu/logo.webp" width="54" height="54" alt="Focinhos abandonados"> Feira de Adoção</a>
+            <nav>
+                
+                <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+                </div>
+                <ul class="nav-list font-1-m">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="nossospets.html">Nossos Pets</a></li>
+                <li><a href="ficha.html">Ficha de adoção</a></li>
+                
+                </ul>
+            </nav>      
+        </div>
+
+        <div class="content-header bg-header-ficha">
+           
+
+            <h1 class="font-xl">
+                Ficha de Adoção
+            </h1>
+
+            <p class="font-m">
+                Preencha o formulário com seus dados e animal escolhido que entraremos em contato para efetivarmos a adoção.
+            </p>
+        </div>
+
+    </header>
+
+    <main>
+        <section class="section">
+            <form class="container formulario font-title3">
+                <div class="contato-label">
+                    <label for="nome"><span>Nome</span></label>
+                    <input type="text" placeholder="Seu nome">
+                </div>
+                <div class="contato-label">
+                    <label for="email"><span>E-mail</span></label>
+                    <input type="email" name="email" id="email" placeholder="seuemail@email.com.br">
+                </div>
+                <div class="contato-label">
+                    <label for="endereco"><span>Endereço</span></label>
+                    <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+                </div>
+                <div class="contato-label">
+                    <label for="telefone"><span>Telefone</span></label>
+                    <input type="tel" name="telefone" id="telefone" placeholder="(99) 9999 - 9999">
+                </div>
+                <div class="contato-label radio">
+                    <p>Tipo de animal escolhido</p>
+                    <input type="radio" name="tipo" id="cachorro">
+                    <label for="cachorro">Cachorro</label>
+                    <p><input type="radio" name="tipo" id="gato">
+                    <label for="gato">Gato</label></p>
+                </div>
+
+                <div class="contato-label">
+                    <label for="nome-animal"><span>Nome do animal</span></label>
+                    <input type="text" name="nome-animal" id="nome-animal" placeholder="Digite o nome do animal">
+                </div>
+                
+                <button class="botton-white botton-ficha button-ficha" type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="section font-content4">
+        <p>Todos os direitos reservados a Focinhos solitários 2022</p>
+        <p>Desenvolvido por Jhoice Elisa Silva de Mello</p>
+    </footer>
+
+<script src="js/mobile-navbar.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+
+.content-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-size: 40px;
+    color: #ffff;
+    
+    height: 65vh;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    }
+
+.bg-header-home {
+  background-image: url("../img/home/large-cabecalho-home.webp");
+}
+
+.bg-header-pets {
+  background-image: url("../img/nossos-pets/header-nossospets.jpg");
+  height: 50vh;
+}
+  
+    .content-header * {
+      padding: 14px 8px;
+    }
