@@ -1,6 +1,31 @@
+header {
+  position: relative;
+}
+
+.custom-shape-divider-bottom-1683895616 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1683895616 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 72px;
+}
+
+.custom-shape-divider-bottom-1683895616 .shape-fill {
+  fill: #FFD54F;
+}
+
 
 .content-header {
     display: flex;
+    
     justify-content: center;
     align-items: center;
     flex-direction: column;
