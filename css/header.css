@@ -1,55 +1,53 @@
-header {
-  position: relative;
-}
-
-.custom-shape-divider-bottom-1683895616 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1683895616 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 72px;
-}
-
-.custom-shape-divider-bottom-1683895616 .shape-fill {
-  fill: #FFD54F;
-}
-
-
 .content-header {
+    padding-left: 20px;
     display: flex;
-    
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
-    text-align: center;
     font-size: 40px;
     color: #ffff;
+    height: 99vh;
+    max-width: 50vw;
+    color: var(--color-2a);
     
-    height: 65vh;
-    width: 100%;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
     }
 
+    .custom-shape-divider-bottom-1686384412 {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      overflow: hidden;
+      line-height: 0;
+  }
+  
+  .custom-shape-divider-bottom-1686384412 svg {
+      position: relative;
+      display: block;
+      width: calc(100% + 1.3px);
+      height: 144px;
+      transform: rotateY(180deg);
+  }
+  
+  .custom-shape-divider-bottom-1686384412 .shape-fill {
+      fill: #FFFFFF;
+  }
+
+  .chamada {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
 .bg-header-home {
-  background-image: url("../img/home/large-cabecalho-home.webp");
+  background-image: url(../img/home/bg-header2.png);
+  background-size: cover;
+  
 }
 
 .bg-header-pets {
   background-image: url("../img/nossos-pets/header-nossospets.jpg");
-  height: 50vh;
 }
-  
-    .content-header * {
-      padding: 14px 8px;
-    }

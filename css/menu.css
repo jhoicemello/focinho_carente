@@ -1,6 +1,6 @@
 
 
-/*Focinhos abandonados */
+/*Focinho carente */
 
 .header {
   display: -webkit-box;
@@ -15,7 +15,6 @@
   gap: 20px;
   padding-top: 20px;
   padding-bottom: 20px;
-  background: var(--cor-3);
   height: 8vh;
 }
 
@@ -28,9 +27,29 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   z-index: 2;
-  color: #FFFF;
+  color: var(color-4a);
 }
 
+.ondas-menu {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.ondas-menu svg {
+  position: relative;
+  display: block;
+  width: calc(155% + 1.3px);
+  height: 143px;
+}
+
+.ondas-menu .shape-fill {
+  fill: var(--color-1b);
+}
 
 .nav-list {
   list-style: none;
@@ -76,6 +95,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 50px;
   gap: 10px;
 }
 
@@ -87,7 +107,6 @@
 
 
   .nav-list {
-    background-color: #4F474E;
     position: absolute;
     top: 8vh;
     right: 0;
@@ -131,7 +150,7 @@
 }
 
 .active-color {
-  background-color: #4F474E;
+  background-color: var(--cor-3);
 }
 
 @-webkit-keyframes navLinkFade {
