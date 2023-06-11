@@ -6,6 +6,43 @@
     padding: 10px 0;
 }
 
+.container-icons {
+    position: relative;
+    
+}
+
+.icons-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -130%);
+    
+
+}
+
+.icons-header {
+    width: 200px;
+    height: auto;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    -webkit-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: 6px 9px 5px 0px rgba(0,0,0,0.22);
+    
+}
+
+.icons-header img {
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
 .pets {
     text-align: center;
     background-color: #F5F2F0;
