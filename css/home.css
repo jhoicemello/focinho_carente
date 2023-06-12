@@ -13,9 +13,9 @@
 
 .icons-flex {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
+    
     gap: 30px;
     position: absolute;
     top: 60%;
@@ -26,8 +26,12 @@
 }
 
 .icons-header {
-    width: 200px;
-    height: auto;
+    flex: 0 1 min(150px);
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     text-align: center;
     padding: 20px;
     background-color: white;
@@ -41,6 +45,8 @@
 .icons-header img {
     margin: 0 auto;
     padding-bottom: 20px;
+    min-width: 32px;
+    height: auto;
 }
 
 .pets {

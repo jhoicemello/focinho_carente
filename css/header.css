@@ -1,4 +1,21 @@
+.header-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 100vh;
+}
+
+.header-grid img {
+  height: 100%;
+  
+}
+
+.header-grid figcaption {
+  display: none;
+  object-fit: cover;
+}
+
 .content-header {
+    
     padding-left: 20px;
     display: flex;
     justify-content: center;
@@ -6,10 +23,7 @@
     flex-direction: column;
     font-size: 40px;
     color: #ffff;
-    height: 99vh;
-    max-width: 50vw;
     color: var(--color-2a);
-    
     }
 
     .custom-shape-divider-bottom-1686384412 {
@@ -43,11 +57,46 @@
 }
 
 .bg-header-home {
-  background-image: url(../img/home/bg-header2.png);
-  background-size: cover;
-  
+  background: rgb(255,255,255);
+  background: linear-gradient(133deg, rgba(255,255,255,1) 12%, rgba(238,204,167,1) 100%);
 }
 
 .bg-header-pets {
   background-image: url("../img/nossos-pets/header-nossospets.jpg");
 }
+/*
+@media only screen and (max-widht:480) {
+  .bg-header-home {
+    background-image: url(../img/home/bg-header-480x320.webp);
+  }
+}
+  
+@media only screen and (min-width:481px) {
+  
+    .bg-header-home {
+      background-image: url(../img/home/bg-header-768x481.webp);
+    }
+
+}
+
+@media only screen and (min-width:769px) {
+    .bg-header-home {
+      background-image: url(../img/home/bg-header-1023x682.webp);
+    }
+
+}
+
+@media only screen and (min-width:1024px) {
+    .bg-header-home {
+      background-image: url(../img/home/bg-header-1200x800.webp);
+    }
+
+}
+
+@media only screen and (min-width:1201px) {
+  .bg-header-home {
+    background-image: url(../img/home/bg-header-2000x1333.webp);
+  }
+
+}
+*/
