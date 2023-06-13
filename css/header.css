@@ -1,24 +1,23 @@
 .header-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   height: 100vh;
 }
 
-.header-grid img {
+
+
+.header-grid picture img{
+  object-fit: contain;
   height: 100%;
-  
 }
 
 .header-grid figcaption {
   display: none;
-  object-fit: cover;
 }
 
 .content-header {
     
     padding-left: 20px;
     display: flex;
-    justify-content: center;
     align-items: flex-start;
     flex-direction: column;
     font-size: 40px;
@@ -64,39 +63,62 @@
 .bg-header-pets {
   background-image: url("../img/nossos-pets/header-nossospets.jpg");
 }
-/*
-@media only screen and (max-widht:480) {
-  .bg-header-home {
-    background-image: url(../img/home/bg-header-480x320.webp);
+
+
+
+@media only screen and (max-width:480px) {
+  .header-grid {
+    grid-template-columns: 1fr;
   }
+  .content-header {
+    
+    justify-content: center;
+  }
+  .header-img {
+    display: none;
+  }
+
 }
   
 @media only screen and (min-width:481px) {
-  
-    .bg-header-home {
-      background-image: url(../img/home/bg-header-768x481.webp);
-    }
+  .header-grid {
+    grid-template-columns: 1fr;
+  }
+  .content-header {
+    padding-top: 120px;
+    justify-content: end;
+  }
+  .header-img {
+    display: inline-block;
+    margin: 0 auto;
+    height: calc(100% - 125px);
+  }
 
-}
+
+  }
+
+
+
 
 @media only screen and (min-width:769px) {
-    .bg-header-home {
-      background-image: url(../img/home/bg-header-1023x682.webp);
-    }
+  .header-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .content-header {
+    justify-content: center;
+  }
+  .header-img {
+    display: grid;
+  }
 
 }
 
 @media only screen and (min-width:1024px) {
-    .bg-header-home {
-      background-image: url(../img/home/bg-header-1200x800.webp);
-    }
+  
 
 }
 
 @media only screen and (min-width:1201px) {
-  .bg-header-home {
-    background-image: url(../img/home/bg-header-2000x1333.webp);
-  }
+
 
 }
-*/

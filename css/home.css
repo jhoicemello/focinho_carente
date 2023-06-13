@@ -27,7 +27,7 @@
 
 .icons-header {
     flex: 0 1 min(150px);
-    aspect-ratio: 1 / 1;
+    min-height: 200x;
     display: flex;
     align-items: center;
     justify-content: center;
