@@ -1,3 +1,4 @@
+
 .header-grid {
   display: grid;
   height: 100vh;
@@ -5,8 +6,9 @@
 
 
 
-.header-grid picture img{
+.header-grid picture {
   object-fit: contain;
+  object-position: left top;
   height: 100%;
 }
 
@@ -89,9 +91,11 @@
     justify-content: end;
   }
   .header-img {
-    display: inline-block;
+    display: grid;
+    justify-content: center;
     margin: 0 auto;
-    height: calc(100% - 125px);
+  
+    height: calc(fit-content - 125px);
   }
 
 
@@ -109,6 +113,8 @@
   }
   .header-img {
     display: grid;
+    justify-content: center;
+    align-items: center;
   }
 
 }
