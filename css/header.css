@@ -1,23 +1,17 @@
 
 .header-grid {
   display: grid;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  min-height: 1000px;
   
-}
-
-
-
-.header-grid picture {
-  object-fit: cover;
-  object-position: left top;
   height: fit-content;
-  align-self: end;
+  height: 100vh;
 }
 
-.header-grid figcaption {
-  display: none;
-}
+
+
+
 
 .content-header {
     
@@ -26,14 +20,34 @@
     align-items: flex-start;
     flex-direction: column;
     font-size: 40px;
-    color: #ffff;
+    
     color: var(--color-2a);
+    height: 50vh;
+    margin: 100px 20px 200px 20px;
     }
 
     .content-header p {
-      max-width: 35ch;
+      
       padding-top: 10px;
       padding-bottom: 20px;
+    }
+
+    .header-img  {
+      
+    }
+
+    .header-grid picture {
+      object-fit: contain;
+      object-position: left top;
+      height: fit-content;
+      align-self: end;
+      
+    }
+
+    
+    
+    .header-grid figcaption {
+      display: none;
     }
 
 .ondas-header {
@@ -70,7 +84,9 @@
 
   .bg-header-home {
     background: rgb(255,255,255);
-    background: linear-gradient(133deg, rgba(255,255,255,1) 12%, rgba(238,204,167,1) 100%);
+    background: var(--color-3b);
+    
+    
   }
 
   .bg-header-pets {
@@ -79,28 +95,21 @@
 
 
 
-@media only screen and (max-width:480px) {
-  .header-grid {
-    grid-template-columns: 1fr;
-  }
+@media only screen and (max-width:647px) {
+  
   .content-header {
-    
-    justify-content: center;
-  }
-  .header-img {
+    height: fit-content;
     
   }
 
+  .header-grid picture {
+    display: none;
+  }
 }
   
 @media only screen and (min-width:481px) {
-  .header-grid {
-    grid-template-columns: 1fr;
-  }
-  .content-header {
-    padding-top: 120px;
-    justify-content: end;
-  }
+
+
 
   
 
@@ -109,24 +118,33 @@
     display: grid;
     justify-content: center;
     margin: 0 auto;
-  
-    
   }
 
 
   }
 
-  @media only screen and (max-width:1049px) {
+
+  @media only screen and (min-width: 647px) and (max-width:900px) {
     .content-header {
       /*padding-top: 100px;*/
       min-height: 40vh;
+      justify-content: center;
+      
+      margin: 0;
+    }
+
+    .header-grid {
+      grid-template-columns: 1fr;
     }
     
+    .header-grid picture img {
+      max-height: 50vh;
+    }
     
   }
 
 
-@media only screen and (min-width:1050px) {
+@media only screen and (min-width:901px) {
   .header-grid {
     grid-template-columns: 1fr 1fr;
   }

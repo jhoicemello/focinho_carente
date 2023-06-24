@@ -27,7 +27,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   z-index: 2;
-  color: var(color-4a);
+  color: var(--color-4a);
 }
 
 .ondas-menu {
@@ -83,7 +83,7 @@
 .mobile-menu div {
   width: 32px;
   height: 2px;
-  background:#FFFF;
+  background: var(--color-4a);
  
   margin: 8px;
   -webkit-transition: 0.3s;
@@ -99,7 +99,7 @@
   gap: 10px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1644px) {
   body {
     overflow-x: hidden;
   }
@@ -111,7 +111,7 @@
     top: 8vh;
     right: 0;
     width: 30vw;
-    height: 100vh;
+    height: fit-content;
     
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -128,7 +128,9 @@
     transition: transform 0.3s ease-in;
     transition: transform 0.3s ease-in, -webkit-transform 0.3s ease-in;
     border-radius: 4px;
-    color: var(--cor-4);
+    background-color: var(--color-1b);
+    opacity: 0.9;
+    color: var(--color-4a)
   }
 
   .nav-list li {
@@ -146,12 +148,11 @@
   -webkit-transform: translateX(0);
       -ms-transform: translateX(0);
           transform: translateX(0);
+          
   
 }
 
-.active-color {
-  background-color: var(--cor-3);
-}
+
 
 @-webkit-keyframes navLinkFade {
   from {
