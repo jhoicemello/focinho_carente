@@ -4,9 +4,23 @@
     --color-0c: #ffffffe8;
     --color-1a : #33743c;
     --color-1b: #b0cab1;
+    --color-1c: linear-gradient(133deg, rgba(255,255,255,1) 12%, rgba(51,116,60,1) 100%);
     --color-2a: #94867d;
     --color-3a: #eecca7;
     --color-3b: linear-gradient(133deg, rgba(255,255,255,1) 12%, rgba(238,204,167,1) 100%);
     --color-4a: #121212;
     
+}
+
+.bg-branco {
+    background: var(--color-0c);
+}
+
+.bg-verde {
+    background: rgb(199,255,206);
+    background: linear-gradient(128deg, rgba(199,255,206,1) 0%, rgba(51,116,60,1) 99%);
+}
+
+.onda-verde {
+    fill: var(--color-0c);
 }

@@ -315,13 +315,7 @@ ol, li {
 
 
 
-.pets h2 {
-  color: var(--color-1a);
-}
 
-.pets p {
-  color: var(--color-4a);
-}
 
 .pets-cards{
     padding: 40px 0;
@@ -358,7 +352,7 @@ ol, li {
 
 
 .finaisfelizes {
-    background-color: var(--color-0a);
+    background-color: linear-gradient(133deg, rgba(255,255,255,1) 12%, rgba(51,116,60,1) 100%);
     text-align: center;
 }
 

@@ -4,6 +4,8 @@
     box-sizing: border-box;
     
   }
+
+
  
 body {
   font-family: 'Roboto', Arial;
@@ -44,4 +46,20 @@ ul {
 
 figcaption {
     visibility: hidden;
+  }
+
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .grid2 figure {
+    justify-self: center;
+  }
+
+  .grid2 figure img {
+    width: 100%;
+    height: auto;
   }
