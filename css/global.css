@@ -51,6 +51,7 @@ figcaption {
   .grid2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 20px;
     justify-content: center;
     align-items: center;
   }
@@ -62,4 +63,10 @@ figcaption {
   .grid2 figure img {
     width: 100%;
     height: auto;
+  }
+
+  @media screen and (max-width: 833px){
+    .grid2 {
+      grid-template-columns: 1fr;
+    }
   }
