@@ -37,6 +37,14 @@
     }
 
     .header-grid picture {
+      object-fit: cover;
+      object-position: left top;
+      height: fit-content;
+      
+      
+    }
+
+    .header-home picture {
       object-fit: contain;
       object-position: left top;
       height: fit-content;
@@ -46,7 +54,7 @@
 
     
     
-    .header-grid figcaption {
+    .header-grid figcaption, .header-home figcaption {
       display: none;
     }
 
